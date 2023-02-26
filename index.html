@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Akhada</title>
+    <link rel="stylesheet" href="css/style.css">   
+    
+    <style>
+        
+        /* css reset */
+    body{
+        display: fixed;
+        font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+         height: 1234px;
+        background: url('img/first.jpg');
+        background-size:cover ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+    }
+    .left{
+        position:absolute;
+        left:23px;
+        top: 8px;
+    }
+    .left img{ width: 102px;
+        padding-left: 23px;
+    }
+    #logo{
+        text-align: center;
+        color: rgb(0, 253, 237);
+        font-size:25px;
+        font: weight 600px;;
+    font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .mid{border: 2px solid rgb(14, 223, 241);
+        background-color:rgba(255, 255, 255, 0.588);
+        display: block;
+        width: 49%;
+        margin: 0px auto;
+    }
+    .right{
+        position:absolute;
+        right:10px;
+        top: 8px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+        margin: 1px;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: rgb(255, 255, 255);
+        background-color: rgb(104, 152, 149);
+        border-radius: 24px;
+        margin-left:23px;
+        padding: 1px 15px;
+        text-decoration: none;
+    }
+    .navbar li a:hover{
+        color:rgb(104, 152, 149); 
+        background-color:rgb(255, 255, 255) ;
+    }
+    .navbar li a:active{
+        color:rgb(115, 255, 28); 
+        background-color:rgb(244, 68, 68) ;
+    }
+    .btn{font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        border: 2px solid white;
+        border-radius: 45px;
+        background-color: black;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+
+    }.container {
+    color: white;
+    border: 7px solid white;
+margin: 196px 207px;
+    padding: 2px 78px;
+    width: 45%;
+    border-radius: 12px;
+}
+.form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border-radius: 9px;
+    font-size: 19px;
+    text-align: center;
+    border: 2px solid black;
+    display: block;
+    width: 70%;
+    padding: 0px;
+    margin: 11px auto;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 30%;
+    margin: 2px auto;
+    padding: 11px;
+
+}
+    </style>
+</head>
+<body>
+    <header class="header" >
+        <!-- left for logo  -->
+        <div class="left">            
+         <img src="img/dumbbell-svg-png-icon-download-18.png" alt="">
+            <div id="logo">aman fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">    
+            <ul class="navbar">
+                <li> <a href="a" id="home">home</a> </li>
+                <li> <a href="a">about us</a> </li>
+                <li> <a href="a">fitness cal</a> </li>
+                <li> <a href="a">contact us</a> </li>
+            </ul>         
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <input type="text" name="serch" id="serch" placeholder="serch product" >
+            <button class="btn">search</button>
+        </div>
+    </header>
+    <div class="container">
+    <h1>join the best jym in bramhapuri. <span>join now</span></h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your contact no">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your email id">
+        </div>
+        <button class="btn">submit</button>
+    </form>
+    
+    </div>
+</body>
+</html>
